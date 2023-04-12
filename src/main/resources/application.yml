@@ -3,7 +3,7 @@ spring:
 
   # Подключение к H2 бд через jdbc
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:packetsolution:mobileappdb
 
   # Включение консоли
   h2:
