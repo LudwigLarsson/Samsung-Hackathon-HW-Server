@@ -14,6 +14,11 @@ import javax.persistence.*;
 @Entity
 @Table
 public class User {
+
+    /* TODO проверить сущность на поля
+        нужно ли дописать ещё поля?
+     */
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
